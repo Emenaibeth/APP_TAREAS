@@ -21,4 +21,4 @@ COPY . /home/app
 # Exponer el puerto 8000
 EXPOSE 40000
 
-CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000" ]
+CMD [ "python", "manage.py", "runserver", "0.0.0.0:40000" ]
